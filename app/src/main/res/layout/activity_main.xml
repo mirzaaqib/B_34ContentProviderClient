@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.pallefire.b_34contentproviderclient.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:textSize="25sp"
+        android:id="@+id/et1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the sub"
+        android:textSize="25sp"
+        android:id="@+id/et2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT"
+        android:background="#00f"
+        android:textSize="25sp"
+        android:id="@+id/bt1"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="READANDDISPLAY"
+        android:background="#00f"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bt2"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+       android:text="The Value is."
+        android:textSize="25sp"
+        android:id="@+id/tv1"
+        />
+</LinearLayout>
